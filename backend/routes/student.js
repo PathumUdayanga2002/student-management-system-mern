@@ -29,7 +29,7 @@ router.route("/add").post((req, res) => {
     });
 });
 
-// after see the data we need to get the data from the database
+// after see the data we need to get the data from the databaseasdfghjk
 router.route("/").get((req, res) => {
   student
     .find()
