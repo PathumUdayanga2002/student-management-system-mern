@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AddStudents from "./components/AddStudents";
+
 import Allstudent from "./components/Allstudent";
 import DeleteStudent from "./components/DeleteStudent";
 import Navbar from "./components/navbar";

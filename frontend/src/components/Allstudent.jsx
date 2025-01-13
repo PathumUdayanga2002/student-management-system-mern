@@ -9,7 +9,7 @@ const Allstudent = () => {
   useEffect(() => {
     const getAllStudent = () => {
       axios
-        .get("${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/student/")
+        .get(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/student/`)
         .then((res) => {
           setAllStudent(res.data);
           //   console.log(res.data);
