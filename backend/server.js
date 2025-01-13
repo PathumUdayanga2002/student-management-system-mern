@@ -20,6 +20,10 @@ app.use(bodyParser.json());
 const studentRouter = require("./routes/student.js");
 app.use("/student", studentRouter);
 
+app.use("/", (req, res) => {
+  res.send("hello world");
+});
+
 const URL = process.env.MONGODB_URL;
 
 // connect mongo db this option
