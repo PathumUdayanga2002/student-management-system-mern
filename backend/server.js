@@ -23,7 +23,7 @@ app.use("/student", studentRouter);
 const URL = process.env.MONGODB_URL;
 
 // connect mongo db this option
-
+//backen update command 
 mongoose
   .connect(URL, {
     useNewUrlParser: true,
